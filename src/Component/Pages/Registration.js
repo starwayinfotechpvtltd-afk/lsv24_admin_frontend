@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { signupAdmin } from "../store/admin/admin.action";
-import LoginImg from "../../assets/images/login2.png";
-import Logo from "../../assets/images/logo.svg";
+import LoginImg from "../../assets/images/login2.jpg";
+import Logo from "../../assets/images/appLogo.png";
 import Input from "../extra/Input";
 import Button from "../extra/Button";
 import { projectName } from "../../util/config";
@@ -196,14 +196,14 @@ const Registration = () => {
         </div>
         <div className=" w-100">
           <div className="align-items-center d-flex h-100 justify-content-center w-100">
-            <div className="w-50">
+            <div className="w-62">
               <div>
                 <img
                   src={Logo}
                   alt="Logo"
                   className="mb-2"
                   height={75}
-                  width={75}
+                  width={100}
                 />
               </div>
               <h2 className="fw-semibold">Sign Up to your account</h2>

@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import Button from "../extra/Button";
 import Input from "../extra/Input";
-import Logo from "../../assets/images/logo.svg";
+import Logo from "../../assets/images/appLogo.png";
 import LoginContain from "../../assets/images/LoginContain.png";
 import { useNavigate } from "react-router-dom";
 import { loginAdmin } from "../store/admin/admin.action";
-import LoginImg from "../../assets/images/login2.png";
+import LoginImg from "../../assets/images/login2.jpg";
 import { connect, useSelector } from "react-redux";
 import { projectName } from "../../util/config";
 import { IconEye, IconEyeOff } from "@tabler/icons-react";
@@ -69,14 +69,14 @@ const Login = () => {
         </div>
         <div className=" w-100">
           <div className="align-items-center d-flex h-100 justify-content-center w-100">
-            <div className="w-50 w-md-100">
+            <div className="w-62 w-md-100">
               <div>
                 <img
                   src={Logo}
                   alt="Logo"
                   className="mb-2"
                   height={75}
-                  width={75}
+                  width={100}
                 />
               </div>
               <h2 className="fw-semibold">Login to your account</h2>
